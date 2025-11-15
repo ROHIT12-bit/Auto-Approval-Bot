@@ -1,18 +1,18 @@
 import os
 
 # Telegram API Configuration (required)
-API_ID = int(os.getenv("API_ID", 12345678))  # From my.telegram.org
-API_HASH = os.getenv("API_HASH", "your_telegram_api_hash_here")  # From my.telegram.org
-BOT_TOKEN = os.getenv("BOT_TOKEN", "1234567890:your_bot_token_here")  # From @BotFather
+API_ID = int(os.getenv("API_ID", 20366634))  # From my.telegram.org
+API_HASH = os.getenv("API_HASH", "72095ec36984aa9ceb0dbaa9cec31559")  # From my.telegram.org
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8376407286:AAEGsn96Rhuf6gP-x3DqlSpE1J7WnxpRGcY")  # From @BotFather
 
 # Channel Configuration (required)
 FORCE_CHANNEL = os.getenv("FORCE_CHANNEL", "your_channel_username")  # Without @
-SUDO = int(os.getenv("SUDO", 1234567890))  # Your Telegram user ID
+SUDO = int(os.getenv("SUDO", 7845335174)  # Your Telegram user ID
 
 # Database Configuration (required)
 MONGO_URI = os.getenv(
     "MONGO_URI",
-    "mongodb+srv://username:password@cluster0.mongodb.net/yourdbname?retryWrites=true&w=majority"
+    "mongodb+srv://rohitreddyathuru:R6Co7MOjTYQOAqcq@cluster0.xrwjpl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 )
 
 # Media URLs (optional with defaults)
@@ -27,4 +27,4 @@ BACKUP_PHOTO_URL = os.getenv(
 
 # Advanced Settings (optional)
 MAX_APPROVALS_PER_MINUTE = int(os.getenv("MAX_APPROVALS_PER_MINUTE", 30))  # Rate limiting
-LOG_CHANNEL = os.getenv("LOG_CHANNEL", "")  # Channel ID for logging (optional)
+LOG_CHANNEL = os.getenv("LOG_CHANNEL", "-1003167866244")  # Channel ID for logging (optional)
