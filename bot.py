@@ -49,13 +49,21 @@ async def start_command(client: Client, message: Message):
     # Check force subscription
     if not await is_user_member(user_id):
         await message.reply_photo(
-            photo=PHOTO_URL,
-            caption=f"**🍁 ʜᴇʟʟᴏ {user_name}!\n\nʏᴏᴜ ᴍᴜsᴛ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.**",
-            reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{FORCE_CHANNEL}")],
-                [InlineKeyboardButton("ᴛʀʏ ᴀɢᴀɪɴ", callback_data="check_sub")]
-            ])
-        )
+    photo=PHOTO_URL,
+    caption=Txt.START_TXT.format(first_name=message.from_user.first_name),
+    reply_markup=InlineKeyboardMarkup([
+        [
+            InlineKeyboardButton("ᴀɴɪᴍᴇ ꜰʟᴀsʜᴇʀ", url="https://t.me/anime_flasher"),
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
+        ],
+        [
+            InlineKeyboardButton(
+                "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ",
+                url=f"https://t.me/{client.me.username}?startchannel=true"
+            )
+        ]
+    ])
+)
         return
     
     # Save user to database
