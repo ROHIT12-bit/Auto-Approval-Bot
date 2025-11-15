@@ -70,11 +70,14 @@ async def start_command(client: Client, message: Message):
         photo=PHOTO_URL,
         caption=f"""**🍁 ʜᴇʟʟᴏ {user_name}!\n\nɪ'ᴍ ᴀɴ ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ ʙᴏᴛ. ɪ ᴄᴀɴ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀᴘᴘʀᴏᴠᴇ ᴜsᴇʀs ɪɴ ᴄʜᴀɴɴᴇʟs & ɢʀᴏᴜᴘs. ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴡɪᴛʜ 'ᴀᴅᴅ ᴍᴇᴍʙᴇʀs' ʀɪɢʜᴛs.**""",
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("ᴀɴɪᴍᴇ ꜰʟᴀsʜᴇʀ", url="https://t.me/anime_flasher")],
-            [InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")],
-            [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{client.me.username}?startchannel=true")]
-        ])
-    )
+    [
+        InlineKeyboardButton("ᴀɴɪᴍᴇ ꜰʟᴀsʜᴇʀ", url="https://t.me/anime_flasher"),
+        InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
+    ],
+    [
+        InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{client.me.username}?startchannel=true")
+    ]
+])
 
 @app.on_chat_join_request()
 async def approve_join_request(client: Client, join_request: ChatJoinRequest):
