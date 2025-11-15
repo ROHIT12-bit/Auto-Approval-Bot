@@ -1,24 +1,26 @@
 # Core Telegram Libraries
-pyrofork==2.3.68  # Modern fork of Pyrogram
-TgCrypto==1.2.5  # Crypto library for Telegram
-python-telegram-bot==20.0  # Official Telegram bot library
+pyrofork==2.3.68
+TgCrypto==1.2.5
+python-telegram-bot==20.0
 
 # Database
-pymongo[srv]==4.5.0  # MongoDB driver with SRV support
-dnspython==2.4.2  # Required for MongoDB SRV connections
+pymongo[srv]==4.5.0
+dnspython==2.4.2
 
 # Web Server
-Flask==2.2.5  # Updated Flask version (security patches)
-gunicorn==21.2.0  # Production WSGI server
-Jinja2==3.1.2  # Template engine
-Werkzeug==2.2.3  # WSGI utilities
-itsdangerous==2.1.2  # Security library
+Flask==2.2.5
+gunicorn==21.2.0
+Jinja2==3.1.2
+Werkzeug==2.2.3
+itsdangerous==2.1.2
 
 # Async/Networking
-aiohttp==3.8.5  # Async HTTP client
-aiosignal==1.3.1  # Async signal handling
-frozenlist==1.4.0  # Required by aiohttp
+aiohttp==3.8.5
+aiosignal==1.3.1
+frozenlist==1.4.0
+multidict==6.0.4
+yarl==1.9.2
 
 # Utilities
-python-dotenv==1.0.0  # Environment variable management
-requests==2.31.0  # HTTP requests (fallback)
+python-dotenv==1.0.0
+requests==2.31.0
