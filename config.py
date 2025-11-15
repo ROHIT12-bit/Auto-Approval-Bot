@@ -18,7 +18,7 @@ MONGO_URI = os.getenv(
 # Media URLs (optional with defaults)
 PHOTO_URL = os.getenv(
     "PHOTO_URL",
-    "https://i.rj1.dev/KhfVL.png"  # Default welcome image
+    "https://i.rj1.dev/vGLKH.png"  # Default welcome image
 )
 BACKUP_PHOTO_URL = os.getenv(
     "BACKUP_PHOTO_URL",
