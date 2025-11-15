@@ -1,5 +1,5 @@
 # Core Telegram Libraries
-pyrofork==2.4.6  # Modern fork of Pyrogram
+pyrofork==2.3.68  # Modern fork of Pyrogram
 TgCrypto==1.2.5  # Crypto library for Telegram
 python-telegram-bot==20.0  # Official Telegram bot library
 
