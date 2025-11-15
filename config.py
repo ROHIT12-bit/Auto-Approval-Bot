@@ -7,7 +7,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "8376407286:AAEGsn96Rhuf6gP-x3DqlSpE1J7WnxpRG
 
 # Channel Configuration (required)
 FORCE_CHANNEL = os.getenv("FORCE_CHANNEL", "your_channel_username")  # Without @
-SUDO = int(os.getenv("SUDO", 7845335174)  # Your Telegram user ID
+SUDO = int(os.getenv("SUDO", 7845335174))  # Your Telegram user ID
 
 # Database Configuration (required)
 MONGO_URI = os.getenv(
