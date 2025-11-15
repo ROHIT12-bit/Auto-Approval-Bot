@@ -6,7 +6,7 @@ API_HASH = os.getenv("API_HASH", "72095ec36984aa9ceb0dbaa9cec31559")  # From my.
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8376407286:AAEGsn96Rhuf6gP-x3DqlSpE1J7WnxpRGcY")  # From @BotFather
 
 # Channel Configuration (required)
-FORCE_CHANNEL = os.getenv("FORCE_CHANNEL", "your_channel_username")  # Without @
+FORCE_CHANNEL = os.getenv("FORCE_CHANNEL", "TheRazeX")  # Without @
 SUDO = int(os.getenv("SUDO", 7845335174))  # Your Telegram user ID
 
 # Database Configuration (required)
@@ -18,11 +18,11 @@ MONGO_URI = os.getenv(
 # Media URLs (optional with defaults)
 PHOTO_URL = os.getenv(
     "PHOTO_URL",
-    "https://telegra.ph/file/5f40e53f0f8a6c3a1e8e4.jpg"  # Default welcome image
+    "https://i.rj1.dev/KhfVL.png"  # Default welcome image
 )
 BACKUP_PHOTO_URL = os.getenv(
     "BACKUP_PHOTO_URL",
-    "https://telegra.ph/file/7a3b5d2e8f1d5a9b6c4d2.jpg"  # Default approval image
+    "https://i.rj1.dev/KhfVL.png"  # Default approval image
 )
 
 # Advanced Settings (optional)
