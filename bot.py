@@ -50,10 +50,10 @@ async def start_command(client: Client, message: Message):
     if not await is_user_member(user_id):
         await message.reply_photo(
     photo=PHOTO_URL,
-    caption=f"""**🍁 ʜᴇʟʟᴏ {user_name}!\n\nɪ'ᴍ ᴀɴ ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ ʙᴏᴛ. ɪ ᴄᴀɴ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀᴘᴘʀᴏᴠᴇ ᴜsᴇʀs ɪɴ ᴄʜᴀɴɴᴇʟs & ɢʀᴏᴜᴘs. ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴡɪᴛʜ 'ᴀᴅᴅ ᴍᴇᴍʙᴇʀs' ʀɪɢʜᴛs.**""", 
+    caption=f"""<blockquote>𝘼𝙍𝘼 𝘼𝙍𝘼 {user_name}!</blockquote>\n\n<blockquote>𝙄'𝙈 𝘼𝙉 𝘼𝙐𝙏𝙊 𝘼𝙋𝙋𝙍𝙊𝙑𝘼𝙇 𝘽𝙊𝙏 𝙃𝙀𝙍𝙀 𝙏𝙊 𝘼𝙋𝙋𝙍𝙊𝙑𝙀 𝙐𝙎𝙀𝙍𝙎 𝙄𝙉 𝙔𝙊𝙐𝙍 𝘾𝙃𝘼𝙉𝙉𝙀𝙇𝙎 𝘼𝙉𝘿 𝙂𝙍𝙊𝙐𝙋𝙎</blockquote>\n\n<blockquote>✦ 𝙅𝙐𝙎𝙏 𝘼𝘿𝘿 𝙈𝙀 𝘼𝙎 𝘼𝘿𝙈𝙄𝙉 𝙒𝙄𝙏𝙃 𝘼𝘿𝘿 𝙈𝙀𝙈𝘽𝙀𝙍𝙎 𝙍𝙄𝙂𝙃𝙏𝙎\n\n✦ 𝙄'𝙇𝙇 𝘿𝙊 𝙏𝙃𝙀 𝙍𝙀𝙎𝙏 𝙇𝙄𝙆𝙀 𝘼 𝙂𝙊𝙊𝘿 𝘽𝙊𝙏</blockquote>\n\n<blockquote>✦ <a href="https://t.me/BOTSKINGDOMS">𝘽𝙊𝙏𝙎 𝙆𝙄𝙉𝙂𝙊𝙈𝙎</a></blockquote>""", 
     reply_markup=InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("ᴀɴɪᴍᴇ ꜰʟᴀsʜᴇʀ", url="https://t.me/anime_flasher"),
+            InlineKeyboardButton("ʙᴏᴛsᴋɪɴɢᴅᴏᴍs", url="https://t.me/Botskingdoms"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
         ],
         [
@@ -76,10 +76,10 @@ async def start_command(client: Client, message: Message):
     # Send welcome message
     await message.reply_photo(
         photo=PHOTO_URL,
-        caption=f"""**🍁 ʜᴇʟʟᴏ {user_name}!\n\nɪ'ᴍ ᴀɴ ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ ʙᴏᴛ. ɪ ᴄᴀɴ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀᴘᴘʀᴏᴠᴇ ᴜsᴇʀs ɪɴ ᴄʜᴀɴɴᴇʟs & ɢʀᴏᴜᴘs. ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴡɪᴛʜ 'ᴀᴅᴅ ᴍᴇᴍʙᴇʀs' ʀɪɢʜᴛs.**""",
+        caption=f"""<blockquote>𝘼𝙍𝘼 𝘼𝙍𝘼 {user_name}!</blockquote>\n\n<blockquote>𝙄'𝙈 𝘼𝙉 𝘼𝙐𝙏𝙊 𝘼𝙋𝙋𝙍𝙊𝙑𝘼𝙇 𝘽𝙊𝙏 𝙃𝙀𝙍𝙀 𝙏𝙊 𝘼𝙋𝙋𝙍𝙊𝙑𝙀 𝙐𝙎𝙀𝙍𝙎 𝙄𝙉 𝙔𝙊𝙐𝙍 𝘾𝙃𝘼𝙉𝙉𝙀𝙇𝙎 𝘼𝙉𝘿 𝙂𝙍𝙊𝙐𝙋𝙎</blockquote>\n\n<blockquote>✦ 𝙅𝙐𝙎𝙏 𝘼𝘿𝘿 𝙈𝙀 𝘼𝙎 𝘼𝘿𝙈𝙄𝙉 𝙒𝙄𝙏𝙃 𝘼𝘿𝘿 𝙈𝙀𝙈𝘽𝙀𝙍𝙎 𝙍𝙄𝙂𝙃𝙏𝙎\n\n✦ 𝙄'𝙇𝙇 𝘿𝙊 𝙏𝙃𝙀 𝙍𝙀𝙎𝙏 𝙇𝙄𝙆𝙀 𝘼 𝙂𝙊𝙊𝘿 𝘽𝙊𝙏</blockquote>\n\n<blockquote>✦ <a href="https://t.me/BOTSKINGDOMS">𝘽𝙊𝙏𝙎 𝙆𝙄𝙉𝙂𝙊𝙈𝙎</a></blockquote>""",
     reply_markup=InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("ᴀɴɪᴍᴇ ꜰʟᴀsʜᴇʀ", url="https://t.me/anime_flasher"),
+            InlineKeyboardButton("ʙᴏᴛsᴋɪɴɢᴅᴏᴍs", url="https://t.me/BOTSKINGDOMS"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
         ],
         [
